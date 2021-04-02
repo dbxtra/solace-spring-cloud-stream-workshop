@@ -1,0 +1,7 @@
+---
+applications:
+- name: temp-converter-source-[STUDENT_ID]
+  memory: 1024M
+  path: target/temp-converter-source-0.0.1.BUILD-SNAPSHOT.jar
+  services:
+  - solace-pubsub-service
